@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+
+@font-face {
+    src: url(Fonts/NeueMontreal-Bold.otf);
+    font-family: neue;
+}
+@font-face {
+    src: url(Fonts/NeueMontreal-Regular.otf);
+    font-family: neuereg;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#first{
+    font-family: neue;
+    padding-left: 60px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45%;
+    margin-top: 50px;
+    
+        .btn{
+            text-decoration: none;
+            font-family: neuereg;
+            color: black;
+            text-transform: uppercase;
+        }
+}
+
+
+
+.content{ 
+    display: grid;
+    font-family: neue;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 20vh;
+    line-height: 95px;
+
+      #text1{
+        margin-left: 90px;
+      }
+            #text3{
+               margin-left: 90px;
+            }
+
+       span{
+        position: absolute;
+        justify-content: center;
+        padding-left: 20px;
+        font-family: sans-serif;
+        font-weight: 525;
+        font-size: 16px;
+       }
+
+}
+
+.text2{
+    margin-left: -80px; 
+}
+
+.circle{
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  z-index: 4;
+
+       i{
+        cursor: pointer;
+        font-weight: 200;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 7.5vh;
+        font-weight: 100;
+        z-index: 10;
+       }
+}
+
+.para1{
+  position: absolute;
+  top: 53rem;
+  left: 20vh;
+  align-items: center;
+  display: block;
+  justify-self: center;
+
+
+       p{
+        font-size: 45px;
+        text-transform: uppercase;
+        font-family: neuereg;
+
+       }
+}
+
+.para2{
+  position: absolute;
+  top: 70rem;
+  left: 20vh;
+  align-items: center;
+  display: block;
+  justify-content: center;
+
+
+      p{
+        font-size: 45px;
+        text-transform: uppercase;
+        font-family: neuereg;
+      }
+}
+
+
+::selection{
+  background-color: grey;
+  color: white;
+}
+
+.nav2{
+  position: relative;
+  top: 60rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh;
+  font-family: neuereg;
+  font-size: 20px;
+
+      a{
+        text-decoration: none;
+        color: black;
+      }
+
+  
+}
+
+.btext{
+  position: absolute;
+  top: 110rem;
+  left: 5rem;
+  text-transform: uppercase;
+  font-family:  neuereg;
+  font-size: 65px;
+       
+       h1{
+         letter-spacing: 15px;
+       }
+}
+
+
+.bigtext1{
+   display: grid;
+   align-items: center;
+   justify-content: left;
+   padding-left: 80px;
+   margin-top: 90rem;
+   font-family: neue;
+   text-transform: uppercase;
+   font-size: 120px
+}
+
+
